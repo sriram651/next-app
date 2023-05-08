@@ -1,0 +1,15 @@
+* {
+    @apply m-0 p-0
+}
+
+.login {
+    @apply w-full h-full m-auto flex items-center justify-around;
+}
+
+.login h1 {
+    @apply text-[30px] font-bold
+}
+
+.login .button {
+    @apply m-auto p-2 bg-blue-500 border border-blue-500
+}

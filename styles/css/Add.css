@@ -1,0 +1,52 @@
+.add {
+    margin: 40px 15px;
+    padding: 20px;
+}
+.add .title {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.user-registration {
+    padding: 10px 15px;
+    width: 400px;
+    height: 350px;
+}
+.user-registration .error-msg {
+    color: red;
+    font-size: 10px;
+}
+.user-registration label {
+    width: fit-content;
+    /* padding: 8px 0px; */
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+}
+.user-registration input {
+    width: 90%;   
+    margin: 10px 0px 0px 0px; 
+    padding: 6px 12px;
+    font-size: 12px;
+    outline: none;
+    border: 0.4px solid rgb(28, 119, 223);
+    border-radius: 4px;
+}
+.user-registration select {
+    width: 90%;
+    margin: 10px 0px;
+    padding: 6px 12px;
+    font-size: 14px;
+    outline: none;
+    border: 0.4px solid rgb(28, 119, 223);
+    border-radius: 4px;
+}
+.user-registration .add-btn {
+    margin: 10px auto;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgb(243, 54, 195);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
